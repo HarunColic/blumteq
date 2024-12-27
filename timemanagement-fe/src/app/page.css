@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.landing-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+.landing-header {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.landing-header h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.landing-header p {
+    font-size: 1.2rem;
+    margin-top: 0;
+}
+
+.landing-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.landing-button {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 8px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.register-button {
+    background-color: #28a745;
+    color: white;
+}
+
+.register-button:hover {
+    background-color: #218838;
+}
+
+.login-button {
+    background-color: #007BFF;
+    color: white;
+}
+
+.login-button:hover {
+    background-color: #0056b3;
+}
+
+.landing-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+
+.landing-footer p {
+    margin: 0;
+}

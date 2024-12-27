@@ -1,0 +1,102 @@
+/* src/app/new-hours/new-hours.css */
+
+/* Basic styling for the page */
+.create-hours-container {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Header styling */
+.header {
+    margin-bottom: 2rem;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+/* Form layout */
+.create-hours-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* Form field styling */
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="number"],
+textarea {
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+textarea:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+/* Error message styling */
+.error-message {
+    color: #dc3545;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+/* Submit button */
+.submit-button {
+    padding: 0.8rem 1.5rem;
+    background-color: #28a745;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #218838;
+}
+
+/* Date picker styling */
+.datepicker-wrapper {
+    position: relative;
+}
+
+input[type="text"] {
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+/* Calendar popup styling */
+.DayPicker {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    z-index: 100;
+}
